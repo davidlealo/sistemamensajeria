@@ -1,13 +1,12 @@
-.start-networking{
-    margin-left: 5%;
-}
+
 .center-menssage{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #E8EBE4;
     min-height: 100vh;
-    min-width: 90%;
+    min-width: 70%;
+    margin-left: 2%;
     
 }
 
@@ -29,11 +28,13 @@
 .user-profile{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
+    width: 30%;
 }
 
+
 .photo-user img{
-    width: 100%;
+    width: 70%;
     border-radius: 50%;
     
 }
@@ -53,14 +54,19 @@
 .sidenav{
     display: flex;
     flex-direction: column;
-    max-width: 10vw;
+    max-width: 30vw;
     align-items: flex-start;
-    margin-left: 5%;
-    padding-top: 5%;
+    margin-right: 3%;
+    padding-top: 2%;
 }
 
 .button-chat{
-    margin-top: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    justify-content: center;
+    width: 50%;
+    
 }
 
 .button-chat input{
@@ -77,7 +83,7 @@
     border: solid 1px #bec1bb;
     width: 100%;
     padding: 5%;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -85,4 +91,28 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: #444749;
+    margin-right: 2%;
+}
+
+.icons-profile i{
+margin-left: 3%;
+}
+
+.name-and-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.space-button{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+strong{
+    font-family: 'Roboto';
 }
