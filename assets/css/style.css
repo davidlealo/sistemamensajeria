@@ -1,5 +1,5 @@
 .start-networking{
-    margin-left: 10%;
+    margin-left: 5%;
 }
 .center-menssage{
     display: flex;
@@ -34,6 +34,7 @@
 .photo-user img{
     width: 100%;
     border-radius: 50%;
+    
 }
 
 .name-user{
@@ -67,4 +68,20 @@
     padding: 15%;
     font-size: larger;
     border: none;
+}
+
+.nav-user{
+    display: flex;
+    flex-direction: row;
+    border: solid 1px #bec1bb;
+    width: 100%;
+    padding: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
