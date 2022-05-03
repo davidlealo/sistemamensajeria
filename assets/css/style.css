@@ -23,6 +23,7 @@
 .first-division{
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
 }
 
 .user-profile{
