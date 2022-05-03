@@ -64,5 +64,7 @@
 .button-chat input{
     background-color: #A491D2;
     color: white;
-    padding: 10%;
+    padding: 15%;
+    font-size: larger;
+    border: none;
 }
