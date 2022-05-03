@@ -41,6 +41,12 @@
     flex-direction: column;
     margin-left: 10%;
 }
+.roboto{
+    font-family: 'Roboto';
+}
+.open-sans{
+    font-family: 'Open Sans';
+}
 
 .sidenav{
     display: flex;
