@@ -1,4 +1,8 @@
-
+.start-networking{
+    background-color: #E8EBE4;
+    padding-left: 3%;
+    border: solid 1px #bec1bb;
+}
 .center-menssage{
     display: flex;
     flex-direction: column;
