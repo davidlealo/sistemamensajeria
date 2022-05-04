@@ -27,8 +27,6 @@
 
 .user-profile{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
     width: 30%;
 }
 
@@ -36,7 +34,8 @@
 .photo-user img{
     width: 70%;
     border-radius: 50%;
-    
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 .name-user{
@@ -56,8 +55,8 @@
     flex-direction: column;
     max-width: 30vw;
     align-items: flex-start;
-    margin-right: 3%;
-    padding-top: 2%;
+    margin-right: 0%;
+    padding-top: 0%;
 }
 
 .button-chat{
@@ -82,9 +81,11 @@
     flex-direction: row;
     border: solid 1px #bec1bb;
     width: 100%;
-    padding: 5%;
-    justify-content: flex-start;
+    padding-top: 0%;
+    padding-bottom: 5%;
     align-items: center;
+    gap: 10px;
+    margin-right: 0px;
 }
 
 .icons-profile{
@@ -92,25 +93,28 @@
     flex-direction: row;
     justify-content: space-between;
     color: #444749;
-    margin-right: 2%;
+    margin: 2px;
+    padding: 2px;
 }
 
 .icons-profile i{
-margin-left: 3%;
+margin-right: 10px;
+font-size: larger;
 }
 
 .name-and-icons{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    width: 70%;
+    width: 60%;
 }
 
 .space-button{
     display: flex;
     width: 100%;
     justify-content: center;
+    margin-bottom: 5%;
 }
 
 strong{
@@ -124,4 +128,12 @@ strong{
 .name-user p{
     padding: 0px;
     margin: 0px;
+}
+
+.barras{
+    margin-right: 5px;
+}
+
+.space-name-icons{
+    padding-left: 10px;
 }
